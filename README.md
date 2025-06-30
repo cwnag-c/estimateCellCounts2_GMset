@@ -1,5 +1,5 @@
 # estimateCellCounts2_GMset
-The function ```estimateCellCounts2_GMset``` extends ```estimateCellCounts2``` from **FlowSorted.Blood.EPIC** with specialized support for **GenomicMethylSet** objects , particularly addressing the output format from minfi::readGEORawFile. only for blood sample , this implementation mandates preprocessQuantile normalization and utilizes probeSelect = "IDOL".
+The function ```estimateCellCounts2_GMset``` extends ```estimateCellCounts2``` from **FlowSorted.Blood.EPIC** with specialized support for **GenomicMethylSet** objects , particularly addressing the output format from minfi::readGEORawFile. (Only for blood sample ,  preprocessQuantile normalization and utilizes probeSelect = "IDOL".)
 
 This code depends on `FlowSorted.Blood.EPIC`. Please install this package and cite the **original publication** of `FlowSorted.Blood.EPIC` when using this code: [https://github.com/immunomethylomics/FlowSorted.Blood.EPIC](url).
 
